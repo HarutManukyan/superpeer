@@ -144,6 +144,7 @@ body{
 .community__cell{
     display: flex;
     justify-content: space-between;
+    margin:0 20px:
 }
 .community__cell-title{
     font-size: 22px;
