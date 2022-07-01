@@ -5,7 +5,22 @@ body{
 }
 .container{
     margin: 0 127px;
-    width: 1000px;
+    max-width: 1000px;
+}
+@media(max-width:1000px){
+    .container{
+        max-width: 800px;
+    }
+}
+@media(max-width:815px){
+    .container{
+        max-width: 620px;
+    }
+}
+@media(max-width:640px){
+    .container{
+        max-width: none;
+    }
 }
 .header{
     margin-top: 45px;
@@ -439,12 +454,12 @@ body{
     position: relative;
     left: -50px;
 }
-ul{
+.footer__list-ul{
     list-style-type: none;
     display: flex;
     
 }
-li{
+.footer__list-li{
     margin: 0 24px;
     margin-left: 0;
     cursor: pointer;
